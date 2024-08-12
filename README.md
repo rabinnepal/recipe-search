@@ -20,6 +20,45 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Building for Production
+
+To create an optimized build for production:
+
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+# or
+bun build
+```
+
+## Starting a Production Server
+
+To start a production server:
+
+```bash
+npm run start
+# or
+yarn start
+# or
+pnpm start
+# or
+bun start
+```
+
+## Using Environment Variables
+
+To use environment variables in your Next.js app, create a .env.local file at the root of your project. This file will be ignored by Git.
+
+Example `.env.local` file:
+
+```bash
+NEXT_PUBLIC_API_BASE_URL = "https://www.themealdb.com"
+
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
